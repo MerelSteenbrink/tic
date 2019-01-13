@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// TODO: Highlight last move
+// TODO: Use 2 loops to create the board
+// TODO: highlight the winning squares
+// TODO: I no one wins: put DRAW
+
+
 function calculateWinner(squares){
   // squares is an array with the board state containin X, O and/or null
   const lines = [
